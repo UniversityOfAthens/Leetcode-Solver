@@ -1,6 +1,6 @@
 # Leetcode-Solver
 
-An automated script that solves LeetCode problems using AI (Gemini, Hugging Face, Nvidia NIM, or Groq), then submits solutions to your account. Supports the daily challenge, a single problem by number, or a range of problems with optional difficulty filter. Premium problems are always skipped.
+A script that solves LeetCode problems using AI (Gemini, Hugging Face, Nvidia NIM, or Groq), then submits solutions to your account. Supports the daily challenge, a single problem by number, or a range of problems with optional difficulty filter. Premium problems are always skipped.
 
 ## Features
 
