@@ -1,6 +1,6 @@
 # Leetcode-Solver
 
-A bot that solves LeetCode problems using AI (Gemini, Hugging Face, Nvidia NIM, or Groq), then submits solutions to your account. Supports the daily challenge, a single problem by number, or a range of problems with optional difficulty filter. Premium problems are always skipped.
+An automated script that solves LeetCode problems using AI (Gemini, Hugging Face, Nvidia NIM, or Groq), then submits solutions to your account. Supports the daily challenge, a single problem by number, or a range of problems with optional difficulty filter. Premium problems are always skipped.
 
 ## Features
 
@@ -22,7 +22,7 @@ A bot that solves LeetCode problems using AI (Gemini, Hugging Face, Nvidia NIM, 
 ```bash
 cd Leetcode-Solver
 python -m venv .venv
-source .venv/bin/activate   # Windows: .venv\Scripts\activate
+source env/bin/activate   # Windows: .\env\Scripts\activate
 pip install -r requirements.txt
 ```
 
