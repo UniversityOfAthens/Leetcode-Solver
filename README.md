@@ -115,9 +115,9 @@ If you don’t pass `--diff`, all difficulties in the range are considered. With
 
 ## Project layout
 
-```
+```bash
 Leetcode-Solver/
-├── bot.py           # Main script (CLI, LeetCode API, AI calls, submit)
+├── solver.py        # Main script (CLI, LeetCode API, AI calls, submit)
 ├── find_models.py   # List available models from AI providers
 ├── requirements.txt # requests, google-genai, python-dotenv
 ├── .env.example     # Template for LEETCODE_* and API keys
