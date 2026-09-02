@@ -61,8 +61,8 @@ Use **exactly one** of: `--daily`, `--chall N`, or `--range LO HI`. Combine with
 Solve and submit today’s daily problem (default language: Python 3, default model: Gemini):
 
 ```bash
-python bot.py --daily
-python bot.py --daily --lang cpp --model gemini
+python solver.py --daily
+python solver.py --daily --lang cpp --model gemini
 ```
 
 ### Single problem by number
