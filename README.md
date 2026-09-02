@@ -70,8 +70,8 @@ python bot.py --daily --lang cpp --model gemini
 Solve one problem by its frontend number (e.g. 3637). Premium is skipped.
 
 ```bash
-python bot.py --chall 3637
-python bot.py --chall 2024 --lang python3 --model hf
+python solver.py --chall 3637
+python solver.py --chall 2024 --lang python3 --model hf
 ```
 
 ### Range of problems
@@ -80,16 +80,16 @@ Solve all non-premium, not-yet-accepted problems in a numeric range. Problems ar
 
 ```bash
 # All problems from 2000 to 3000 (any difficulty)
-python bot.py --range 2000 3000 --lang python3
+python solver.py --range 2000 3000 --lang python3
 
 # Only Easy problems in that range
-python bot.py --range 2000 3000 --diff easy --lang python3
+python solver.py --range 2000 3000 --diff easy --lang python3
 
 # Only Medium, using Hugging Face
-python bot.py --range 1000 1500 --diff medium --model hf
+python solver.py --range 1000 1500 --diff medium --model hf
 
 # Only Hard, using Nvidia
-python bot.py --range 1 500 --diff hard --model nvidia
+python solver.py --range 1 500 --diff hard --model nvidia
 ```
 
 If you don’t pass `--diff`, all difficulties in the range are considered. With `--diff`, only **Easy**, **Medium**, or **Hard** (as returned by LeetCode) are included.
